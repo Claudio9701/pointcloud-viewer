@@ -23,7 +23,7 @@ function App({onLoad}) {
     const [data, setData] = useState();
     const [isLoaded, setIsLoaded] = useState(false);
     const [width, setWidth] = useState(window.innerWidth);
-    const [model, setModel] = useState("Lego City - 2");
+    const [model, setModel] = useState("10");
     
     
     const handleModelButton = (modelName) => setModel(modelName)
@@ -65,7 +65,7 @@ function App({onLoad}) {
           const [mins, maxs] = res.header.boundingBox;
     
           setViewState({
-            ...INITIAL_VIEW_STATE,
+            rotationOrbit: 200,
             target: [
               (mins[0] + maxs[0]) / 2,
               (mins[1] + maxs[1]) / 2,
