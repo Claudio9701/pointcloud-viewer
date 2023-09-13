@@ -98,15 +98,15 @@ function App({onLoad}) {
         //_typedArrayManagerProps = {isMobile ? {overAlloc: 1, poolSize: 0} : null}
         >
           <div className={styles.controls}>
-          <button onClick={() => handleModelButton("Lego City - 2")}>Lego City - 2</button>
-          <button onClick={() => handleModelButton("Lego City - 15")}>Lego City - 15</button>
+          {/* <button onClick={() => handleModelButton("Lego City - 2")}>Lego City - 2</button> */}
+          {/* <button onClick={() => handleModelButton("Lego City - 15")}>Lego City - 15</button> */}
           <button onClick={() => handleModelButton("1")}>Night Paris Car</button>
           <button onClick={() => handleModelButton("4")}>Monument Lion</button>
           <button onClick={() => handleModelButton("5")}>Dali Elepant</button>
           <button onClick={() => handleModelButton("6")}>Dali Woman</button>
           <button onClick={() => handleModelButton("7")}>Dali Rinho</button>
           <button onClick={() => handleModelButton("8")}>Dali Phone</button>
-          <button onClick={() => handleModelButton("9")}>Weird</button>
+          {/* <button onClick={() => handleModelButton("9")}>Weird</button> */}
           <button onClick={() => handleModelButton("10")}>Monument Man 1</button>
           <button onClick={() => handleModelButton("13")}>Monument Horse</button>
           </div>
